@@ -10,10 +10,9 @@ nav{
     background-color: transparent;
     justify-content: space-between;
     height: 80px;
-    width: 70%;
+    max-width: 1214.75px;
+    width: 100%;
 }
-
-
 
 .leftContainer{
     color: aliceblue;
@@ -38,6 +37,7 @@ nav{
     background-color: transparent;
     display: grid;
     place-items: center;
+    align-items: center;
     width: 65%;
     margin-left: -40px;
 }
@@ -70,8 +70,6 @@ nav{
 li{
     background-color: transparent;
 }
-
-
 
 .rightContainer{
     background-color: transparent;

@@ -30,7 +30,6 @@ const Projects = ({setPageName}) => {
                             <a href='https://github.com/floKianB/Flo-Crypto' target="_blank" rel='noreferrer'><img className={styles.codeIcon} src={github} alt="code link"/></a>
                         </div>
                         <br/>
-                        <p>URL : Https://flo-crypto.netlify.app</p>
 
                 </div>
             </div>
@@ -50,7 +49,6 @@ const Projects = ({setPageName}) => {
                             <a href='https://github.com/floKianB/WeatherApp-API' target="_blank" rel='noreferrer'><img className={styles.codeIcon} src={github} alt="code link"/></a>
                         </div>
                         <br/>
-                        <p>URL : Https://flo-weather.netlify.app</p>                        
                     </div>
                     <div>
                         <img src={iphone} alt='iphone' className={styles.iphone}/>

@@ -31,7 +31,6 @@
     margin-bottom: 200px;
 }
 
-
 .macDescription{
     color: aliceblue;
     padding-top: 60px;
@@ -67,7 +66,8 @@
     white-space: nowrap;
     overflow: hidden; 
     display: block;
-    animation: animated-text 1.5s steps(29,end) 1s 1 normal both;}
+    animation: animated-text 1.5s steps(29,end) 1s 1 normal both;
+}
 .iphoneName{
     font-size: 3.5rem;
     font-weight: bolder;
@@ -83,13 +83,6 @@
     display: block;
     animation: animated-text 1.5s steps(29,end) 1s 1 normal both;
 
-}
-.macName {
-    animation: animated-text 1.5s steps(29,end) 1s 1 normal both;
-}
-@keyframes animated-text{
-    from{width: 0;}
-    to{width: 472px;}
 }
 .nameSite{
     text-decoration: none;

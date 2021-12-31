@@ -7,12 +7,15 @@ import Home from "./components/Home/Home";
 import Portfolio from "./components/Portfolio/Portfolio";
 import ContactUs from "./components/ContactMe/ContactUs";
 import Projects from "./components/Pro-jects/Projects";
-import Banner from "./components/Banner/Banner"
+import Banner from "./components/Banner/Banner";
+
+import styles from "./App.module.css";
 
 const App = () => {
     const [pageName, setPageName] = useState("")
         return (
-            <div>
+            <>
+            <div className={styles.display}>
                 <Nav pageName={pageName}/>
                 <Banner pageName={pageName}/>
                 <Routes>
@@ -23,6 +26,10 @@ const App = () => {
                 </Routes>
                 <Footer />
             </div>
+            <div className={styles.noDisplay}>
+                Please Open this page with Larger devices.
+            </div>
+            </>
         );
 }
 

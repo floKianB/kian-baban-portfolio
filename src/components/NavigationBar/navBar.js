@@ -25,6 +25,9 @@ const Nav = ({pageName}) => {
                     </div>
                 </div>
             </nav>
+                <div className={styles.NavMin}>
+                    
+                </div>
             </>
         )
 }
