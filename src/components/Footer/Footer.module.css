@@ -1,0 +1,15 @@
+
+.text{
+    color: aliceblue;
+    font-size: xx-large;
+}
+.textContainer, .phoneConrainer{
+    width: max;
+    height: 50px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

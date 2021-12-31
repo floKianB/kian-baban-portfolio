@@ -1,0 +1,39 @@
+
+.CVcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+.pageCV{
+    width: 40%;
+    height: 40%;
+}
+.downloadCV, .downloadLink{
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 24px;
+    border-radius: 20px;
+    margin-top: 60px;
+    padding: 7px;
+    color: black;
+    transition: all 0.5s;
+}
+.downloadLink{
+    background-color: transparent;
+}
+.downloadCV:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+}
+
+.socialMediaContainer{
+    margin-bottom: 60px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}

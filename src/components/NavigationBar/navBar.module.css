@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigationBar{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    height: 80px;
+    width: 70%;
+}
+
+
+
+.leftContainer{
+    color: aliceblue;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.name{
+    font-size: 3.5rem;
+    background-color: transparent;
+    font-weight: bolder;
+}
+.flo{
+    color: green;
+    background-color: transparent;
+}
+
+
+.middleContainer{
+    background-color: transparent;
+    display: grid;
+    place-items: center;
+    width: 65%;
+    margin-left: -40px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    width: 100%;
+    list-style-type: none;
+}
+.usual{
+    text-decoration: none;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.usual:hover{
+    background-color: rgba(2, 112, 2, 0.753);
+}
+.onPage{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: rgba(2, 112, 2, 0.753);
+}
+li{
+    background-color: transparent;
+}
+
+
+
+.rightContainer{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.KB{
+    width: 65px;
+    height: 65px;
+    background-color: transparent;
+}

@@ -1,0 +1,55 @@
+
+.sendBtn{
+    background-color: aliceblue;
+    width: 10%;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+}
+.centerizer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+.labelEmailMe{
+    color: aliceblue;
+    margin-bottom: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+.inputMailEach, .inputMailText, .inputMailName{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    padding: 5px;
+}
+.package{
+    display: flex;
+}
+.package > input{
+    margin: 35px 25px;
+    margin-left: 0px;
+}
+
+.inputMailText{
+    width: 85%;
+    height: 200px;
+    justify-content: start;
+    text-align: start;
+}
+
+.inputMailEach{
+    width: 40%;
+}
+.inputMailName{
+    width: 40%;
+}

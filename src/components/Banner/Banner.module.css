@@ -1,0 +1,34 @@
+
+.bannerContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    background-size: cover;
+    height: 600px;
+    background-attachment: scroll;
+}
+
+
+.logo{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    display: grid;
+    justify-items: center;
+    top: 400px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-bottom: 1rem rgba(22, 126, 9, 0.781) solid;
+}
+h1{
+    position: absolute;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 5rem;
+    color: aliceblue;
+    background-color: transparent;
+    text-shadow: 2px 2px 70px #000000;
+}
+

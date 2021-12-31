@@ -1,0 +1,27 @@
+
+.overViewContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerizer{
+    display: grid;
+    place-items: center;
+    margin-bottom: 200px;
+}
+.show{
+    margin-top: 300px;
+}
+.noshow{
+    display: none;
+}
+.noshowInfo{
+    display: none;
+}
+.showInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    margin-bottom: 300px;
+}

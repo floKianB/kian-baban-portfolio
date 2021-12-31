@@ -1,0 +1,24 @@
+.listsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.lists{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 80px;
+
+}
+.eachCart{
+    width: 100%;
+    object-fit: contain;
+    max-height: 180px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.eachCart:hover{
+    opacity: 0.65;
+}

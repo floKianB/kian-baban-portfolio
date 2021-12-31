@@ -1,0 +1,15 @@
+*{
+    margin: 0 0;
+    background-color: black;
+}
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(1, 105, 1, 0.575);
+    height: 30px;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
+    background-color: green;
+}

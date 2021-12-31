@@ -1,0 +1,18 @@
+.row{
+    width: 100%;
+    margin: 0px 35px;
+}
+.carts{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    justify-content: center;
+    align-items: center;
+}
+.eachCart{
+    width: 80px;
+    object-fit: contain;
+    max-height: 80px;
+    margin: 0px 20px;
+}
+
