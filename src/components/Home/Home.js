@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 import List from "./Lists";
 import Info from "./Info";
+import Slider from "./linkedin-Slider/slider";
 import styles from "./home.module.css";
 
 
@@ -16,6 +17,9 @@ const Cards = ({setPageName}) => {
         return (
             <>
                 <div className={show===true?styles.noshow:styles.show}>
+                    <div className={styles.center}>
+                        <Slider />
+                    </div>
                     <div className={styles.centerizer}>
                         <List setWhich={setWhich} setShow={setShow} setDescription={setDescription} setImage={setImage}/>
                     </div>

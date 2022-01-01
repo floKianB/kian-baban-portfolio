@@ -25,3 +25,9 @@
     margin-top: 400px;
     margin-bottom: 300px;
 }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
