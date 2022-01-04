@@ -39,10 +39,11 @@ const Projects = ({setPageName}) => {
                         <h2 className={styles.iphoneName}>Flo-Weather</h2>
                         <br/>
                         <p>
-                            Weather App is built just by HTML, CSS & Vanilla JavaScript. It contains a beutifull loader and error hadllers, which provide user by a 
-                            great UX performence that combines with Js's DOM to build this simple UI design. working with 
+                            Weather App is built just by HTML, CSS & Vanilla JavaScript. It contains a beautiful loader and
+                            error handlers, which provide the user with a great UX performance that combines with Js's DOM to
+                            build this simple UI design. working with 
                             <a class={styles.nameSite} target="_blank" rel='noreferrer' href='https://www.meteomatics.com/en/weather-api/?gclid=CjwKCAiAzrWOBhBjEiwAq85QZ1xeiaiEOnYJHy-O6nm3d-_4sx-mEFJUeos4sBqd_Sty0ZPVevwsMxoCskoQAvD_BwE'> Meteomatics </a> APIs
-                            is a great wat to experience a real API experience, however, Data is not really reliable.
+                            APIs is a great way to experience a real API experience, however, Data is not reliable.
                         </p>
                         <div className={styles.linkCenterer}>
                             <a href='https://flo-weather.netlify.app/' target="_blank" rel='noreferrer'><div className={styles.linkToSite}>Flo-Weather</div></a>

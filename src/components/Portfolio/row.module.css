@@ -15,4 +15,7 @@
     max-height: 80px;
     margin: 0px 20px;
 }
+.eachCart:hover{
+    opacity: 50%;
+}
 

@@ -11,6 +11,11 @@
     width: 40%;
     height: 40%;
 }
+.toefl{
+    width: 40%;
+    padding-top: 20px;
+    background-color: #ffff;
+}
 .downloadCV, .downloadLink{
     background-color: white;
     text-decoration: none;

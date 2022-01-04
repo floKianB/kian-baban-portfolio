@@ -1,6 +1,7 @@
 import React from 'react';
 
 import styles from "./ContactUs.module.css";
+import image from "../../picSource/mail.jpeg"
 
 const ContactUs = ({setPageName}) => {
     const pageName = "Contact Me"
@@ -9,6 +10,7 @@ const ContactUs = ({setPageName}) => {
         return (
             <>
             <div className={styles.centerizer}>
+                <img src={image} alt="mail"/>
                 <form action="https://formsubmit.co/kianbaban@yahoo.com" method="POST">
                     <h2 className={styles.labelEmailMe}>Email-Me</h2>
                     <input className={styles.inputMailName} type="text" name="name" placeholder='Name'/>
