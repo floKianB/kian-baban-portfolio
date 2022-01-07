@@ -97,12 +97,27 @@ li{
     background-color: transparent;
 }
 
-@media screen and (min-width:0px) and (max-width:1023px){
+@media screen and (min-width:768px) and (max-width:1023px){
     nav{
         display: none;
     }
     .NavMin{
         display: flex;
+    }
+    .nameMin{
+        color: aliceblue;
+        font-size: 2rem;
+        background-color: transparent;
+        font-weight: bolder;
+    }
+}
+@media screen and (min-width:0px) and (max-width:767px){
+    nav{
+        display: none;
+    }
+    .NavMin{
+        display: flex;
+        padding: 0px 3px;
     }
     .nameMin{
         color: aliceblue;
