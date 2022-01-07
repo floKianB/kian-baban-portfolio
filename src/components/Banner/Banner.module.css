@@ -8,6 +8,8 @@
     background-size: cover;
     height: 600px;
     background-attachment: scroll;
+    object-fit: cover;
+    overflow-x: hidden;
 }
 
 
@@ -34,8 +36,8 @@
 
 
 /* Small laptop */
-@media only screen and (min-device-width: 1023px) and (max-device-width:1439px){
+@media only screen and (min-device-width: 0px) and (max-device-width:1215px){
     .pageName{
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
 }
