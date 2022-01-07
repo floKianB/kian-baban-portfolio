@@ -2,16 +2,26 @@ import React, { Component } from 'react';
 
 import styles from "./Footer.module.css";
 
+import phone from "../../picSource/phone.png";
+import email from "../../picSource/email.png";
+
+
 class Footer extends Component {
     render() {
         return (
             <>
+            <div className={styles.centerer}>
                 <div className = {styles.textContainer}>
-                    <p className = {styles.text}>350431961@gapps.yrdsb.ca</p>
+                    <div className={styles.container}>
+                        <img src={phone} alt='phone' className={styles.icons}/>
+                        <p className = {styles.text} id = {styles.phone}>+1 (437)991-8664</p>
+                    </div>
+                    <div className={styles.container}>
+                        <img src={email} alt='email' className={styles.icons}/>
+                        <p className = {styles.text}>kianbaban@yahoo.com</p>
+                    </div>
                 </div>
-                <div className = {styles.phoneConrainer}>
-                    <p className = {styles.text} id = {styles.phone}>+989120349044</p>
-                </div>
+            </div>
             </>
         );
     }

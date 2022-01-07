@@ -26,9 +26,6 @@ const App = () => {
                 </Routes>
                 <Footer />
             </div>
-            <div className={styles.noDisplay}>
-                Please Open this page with Larger devices.
-            </div>
             </>
         );
 }

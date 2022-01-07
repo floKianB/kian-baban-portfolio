@@ -1,14 +1,24 @@
 
 .sendBtn{
-    background-color: aliceblue;
-    width: 10%;
-    border: none;
-    border-radius: 20px;
-    font-size: 24px;
+    background-color: rgba(240, 248, 255, 0.795);
+    border-radius: 15px;
+    width: fit-content;
+    border: 1px solid green;
+    color: black;
+    font-size: 1.6rem;
+    padding: 5px 20px;
+    margin: 25px 10px;
+    transition: all 0.3s;
 }
+.sendBtn:hover{
+    background-color: green;
+    border-radius: 2px;
+}
+
 .centerizer{
+    width: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 250px;
     margin-bottom: 100px;
@@ -20,20 +30,36 @@
 form{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: left;
+    padding-left: 100px;
 }
 .inputMailEach, .inputMailText, .inputMailName{
-    background-color: aliceblue;
+    background-color: transparent;
     border: none;
-    border-radius: 20px;
+    border-bottom: 1px solid white;
     font-size: 24px;
     padding: 5px;
+    color: aliceblue;
+}
+.inputMailEach:focus, .inputMailName:focus{
+    outline: none;
+    border-bottom: 1px solid green;
+}
+
+.inputMailText:focus{
+    outline: none;
+    border: 1px solid green;
+}
+.inputMailText{
+    border: 1px solid white;
+    border-radius: 5px;
 }
 .package{
     display: flex;
+    margin-bottom: 20px;
 }
 .package > input{
     margin: 35px 25px;
@@ -47,9 +73,14 @@ form{
     text-align: start;
 }
 
-.inputMailEach{
+.inputMailEach, .inputMailName{
     width: 40%;
 }
-.inputMailName{
-    width: 40%;
+.mail{
+    margin-left: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

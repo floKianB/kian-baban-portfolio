@@ -3,7 +3,6 @@ import React from 'react';
 import styles from './Projects.module.css';
 import mac from "../../picSource/macbook.png";
 import iphone from "../../picSource/iphone.png";
-import tv from "../../picSource/Flo-Flix.png";
 import github from "../../picSource/github.png";
 
 
@@ -53,17 +52,6 @@ const Projects = ({setPageName}) => {
                     </div>
                     <div>
                         <img src={iphone} alt='iphone' className={styles.iphone}/>
-                    </div>
-                </div>
-
-                <div className={styles.tvContainer}>
-                    <div>
-                        <img src={tv} alt='imac' className={styles.tv}/>
-                    </div>
-                    <div className={styles.tvDescription}>
-                        <h2 className={styles.tvName}>Netflix Clone</h2>
-                        <br/>
-                        <p>This project built only for showing my skills to my teacher in 4 hours. I handeled APIs with new method and </p>                   
                     </div>
                 </div>
             </div>

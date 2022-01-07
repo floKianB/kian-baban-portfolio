@@ -4,6 +4,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .navigationBar{
     display: flex;
@@ -11,9 +12,22 @@ nav{
     justify-content: space-between;
     height: 80px;
     max-width: 1214.75px;
+    min-width: 1023px;
     width: 100%;
 }
-
+.NavMin{
+    display: none;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.menu{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    cursor: pointer;
+}
 .leftContainer{
     color: aliceblue;
     background-color: transparent;
@@ -81,4 +95,20 @@ li{
     width: 65px;
     height: 65px;
     background-color: transparent;
+}
+
+@media screen and (min-width:0px) and (max-width:1023px){
+    nav{
+        display: none;
+    }
+    .NavMin{
+        display: flex;
+    }
+    .nameMin{
+        color: aliceblue;
+        font-size: 2rem;
+        background-color: transparent;
+        font-weight: bolder;
+    }
+
 }

@@ -21,15 +21,6 @@
     width: 70%;
     margin-bottom: 100px;
 }
-.tvContainer{
-    width: 70%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 200px;
-}
 
 .macDescription{
     color: aliceblue;
@@ -43,11 +34,6 @@
     font-size: 1.5rem;
     padding-right: 100px;
 }
-.tvDescription{
-    color: aliceblue;
-    font-size: 1.5rem;
-    width: 83%;
-}
 
 .mac{
     height: 470px;
@@ -56,33 +42,20 @@
     object-fit: cover;
     height: 650px;
 }
-.tv{
-    object-fit: cover;
-    height: 900px;
-}
-.tvName{
-    font-size: 3.5rem;
-    font-weight: bolder;
-    white-space: nowrap;
-    overflow: hidden; 
-    display: block;
-    animation: animated-text 1.5s steps(29,end) 1s 1 normal both;
-}
+
 .iphoneName{
     font-size: 3.5rem;
     font-weight: bolder;
     white-space: nowrap;
     overflow: hidden; 
     display: block;
-    animation: animated-text 1.5s steps(29,end) 1s 1 normal both;}
+}
 .macName{
     font-size: 3.5rem;
     font-weight: bolder;
     white-space: nowrap;
     overflow: hidden; 
     display: block;
-    animation: animated-text 1.5s steps(29,end) 1s 1 normal both;
-
 }
 .nameSite{
     text-decoration: none;

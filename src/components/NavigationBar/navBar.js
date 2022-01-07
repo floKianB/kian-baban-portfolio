@@ -25,8 +25,10 @@ const Nav = ({pageName}) => {
                     </div>
                 </div>
             </nav>
-                <div className={styles.NavMin}>
-                    
+                <div className={styles.NavMin}> 
+                    <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/26e07f/external-menu-multimedia-kiranshastry-solid-kiranshastry.png" alt="menue" className={styles.menu}/>
+                    <p className= {styles.nameMin} ><spam className={styles.flo}>Flo</spam>Kian</p>
+                    <img className = {styles.KB} src={Logo} alt = "logo"/>
                 </div>
             </>
         )

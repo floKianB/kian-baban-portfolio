@@ -1,15 +1,35 @@
 
 .text{
     color: aliceblue;
-    font-size: xx-large;
+    font-size: 1.5rem;
 }
-.textContainer, .phoneConrainer{
-    width: max;
-    height: 50px;
-    position: relative;
-    bottom: 10px;
+.centerer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
+
+}
+.textContainer{
+    width: max;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
 }
 
+.container{
+    display: flex;
+    margin-bottom: 10px;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.chat{
+    width: 60px;
+    height: 60px;
+}
