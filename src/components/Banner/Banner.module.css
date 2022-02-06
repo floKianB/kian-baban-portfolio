@@ -3,6 +3,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+
 }
 .banner{
     background-size: cover;
@@ -11,7 +12,6 @@
     object-fit: cover;
     overflow-x: hidden;
 }
-
 
 .logo{
     width: 350px;
@@ -22,8 +22,9 @@
     top: 400px;
     background-color: transparent;
     border-radius: 50%;
-    border-bottom: 1rem rgba(22, 126, 9, 0.781) solid;
+    border-bottom: 0.7rem rgba(22, 126, 9, 0.781) solid;
 }
+
 .pageName{
     position: absolute;
     text-align: center;
@@ -34,9 +35,18 @@
     text-shadow: 2px 2px 70px #000000;
 }
 
-
+/*small phone */
+@media only screen and (min-device-width: 0px) and (max-device-width:321px){
+    .logo{
+        width: 300px;
+        height: 300px;
+    }
+    .pageName{
+        font-size: 2.5rem;
+    }
+}
 /* Small laptop */
-@media only screen and (min-device-width: 0px) and (max-device-width:1215px){
+@media only screen and (min-device-width: 322px) and (max-device-width:1215px){
     .pageName{
         font-size: 3rem;
     }

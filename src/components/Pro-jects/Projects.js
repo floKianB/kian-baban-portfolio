@@ -2,6 +2,7 @@ import React from 'react';
 
 import styles from './Projects.module.css';
 import mac from "../../picSource/macbook.png";
+import imac from "../../picSource/Imac.png";
 import iphone from "../../picSource/iphone.png";
 import github from "../../picSource/github.png";
 
@@ -54,6 +55,26 @@ const Projects = ({setPageName}) => {
                         <img src={iphone} alt='iphone' className={styles.iphone}/>
                     </div>
                 </div>
+
+
+                <div className={styles.imacContainer}>
+                    <div>
+                        <img src={imac} alt='imac' className={styles.imac}/>
+                    </div>
+                    <div className={styles.imacDescription}>
+                        <p className={styles.macName}>Flo-Swift</p>
+                        <br/>
+                        <p>
+
+                        </p>
+                            <div className={styles.imaclinkCenterer}>
+                                <a href='https://github.com/floKianB/Flo-Crypto' target="_blank" rel='noreferrer'><img className={styles.codeIcon} src={github} alt="code link"/></a>
+                            </div>
+                            <br/>
+
+                    </div>
+                </div>
+
             </div>
         </>
     );

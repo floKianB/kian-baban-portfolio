@@ -8,12 +8,13 @@ const ContactUs = ({setPageName}) => {
 
         return (
             <>
+            <h2 className={styles.labelEmailMe}>Email-Me</h2>
+
             <div className={styles.center}>
             <div className={styles.centerizer}>
                 {/* <img src={image} alt="mail"/> */}
                 <img src="https://img.icons8.com/external-justicon-flat-justicon/256/000000/external-email-notifications-justicon-flat-justicon.png" className={styles.mail} alt='mail'/>
                 <form action="https://formsubmit.co/kianbaban@yahoo.com" method="POST" target='_blanck'>
-                    <h2 className={styles.labelEmailMe}>Email-Me</h2>
                     <input className={styles.inputMailName} type="text" name="name" placeholder='Name'/>
                     <div className={styles.package}>
                         <input className={styles.inputMailEach} type="text" name="_subject" placeholder='Subject'/>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 
 .overViewContainer{
     display: flex;
@@ -7,29 +8,171 @@
 .centerizer{
     display: grid;
     place-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 0px;
 }
-.show{
-    margin-top: 300px;
+
+.minimummer{
+    max-width: 75%;
 }
-.noshow{
-    display: none;
+
+/* about me */
+
+.aboutMeContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 30px;
+    color: aliceblue;
+    place-items: center;
+    margin-top: 18rem;
 }
-.noshowInfo{
-    display: none;
+
+.profilePic{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    object-fit: cover;
 }
-.showInfo{
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutMeTitle{
+    margin-bottom: 0.5em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3em;
+    color: aliceblue;
+}
+
+
+/* University */
+
+.universityContainer{
+    margin-top: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 400px;
-    margin-bottom: 300px;
+    flex-direction: column;
+}
+
+.waterloo{
+    width: 70%;
+}
+
+.descriptionAboutMe, .descriptionAboutMe1{
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.descriptionAboutMe1{
+    width: 90%;
+}
+
+/* left */
+
+.leftContainer{
+    gap: 30px;
+    margin-top:5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftTextContainer{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    color: aliceblue;
+
+}
+.leftTextContainer>p{
+    font-size: 1.5rem;
+}
+.leftTopic{
+    font-family: 'Dosis', sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+
+
+
+/* roadmap */
+.roadmap{
+    margin: 5em 0;
+}
+.roadmapDescription{
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-top: 3em;
+}
+
+/* slider linkedin */
+
+.show{
+    margin-top: 0px;
 }
 .center{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 4em;
+}
+
+/* Basketball */
+.basketballContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    width: 100%;
+}
+.basketballtopic{
+    font-family: 'Dosis', sans-serif;
+    color: aliceblue;
+    margin-bottom: 1em;
+    font-size: 3rem;
+}
+.basketball{
+    margin-top: 4em;
+    width: 20%;
+}
+
+.bassketballDescription{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+/* guitar */
+.guitarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4em;
+    width: 100%;
+    margin-top: 4em;
+}
+.guitartopic{
+    font-family: 'Dosis', sans-serif;
+    color: aliceblue;
+    margin-bottom: 1em;
+    font-size: 3rem;
+}
+.guitar{
+    margin-top: 4em;
+    width: 30%;
+}
+
+.guitarDescription{
+    color: aliceblue;
+    font-size: 1.5rem;
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width:1023px){

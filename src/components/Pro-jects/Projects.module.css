@@ -21,7 +21,14 @@
     width: 70%;
     margin-bottom: 100px;
 }
-
+.imacContainer{
+    display: grid;
+    grid-template-rows: 0.5fr 0.7fr;
+    place-items: center;
+    width: 85%;
+    margin-bottom: 100px;
+    column-gap: 50px;
+}
 .macDescription{
     color: aliceblue;
     padding-top: 60px;
@@ -35,8 +42,18 @@
     padding-right: 100px;
 }
 
+.imacDescription{
+    color: aliceblue;
+    padding-top: 60px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
 .mac{
     height: 470px;
+}
+.imac{
+    height: 600px;
 }
 .iphone{
     object-fit: cover;
@@ -72,6 +89,18 @@
     background-color: aliceblue;
     text-decoration: none;
     transition: all 0.4s;
+}
+.imaclinkCenterer{
+    padding: 7px;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 20px;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    transition: all 0.4s;
+    justify-content: center;
+    align-items: center;
 }
 .linkToSite:hover{
     background-color: rgba(0, 94, 0, 0.911);

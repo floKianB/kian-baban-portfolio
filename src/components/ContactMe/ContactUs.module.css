@@ -20,12 +20,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 3rem;
     margin-bottom: 100px;
 }
 .labelEmailMe{
+    font-family: 'Dosis', sans-serif;
     color: aliceblue;
-    margin-bottom: 25px;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 15rem;
 }
 form{
     display: flex;

@@ -5,12 +5,16 @@ nav{
     justify-content: center;
     align-items: center;
     width: 100%;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    z-index: 9999;
 }
 .navigationBar{
     display: flex;
     background-color: transparent;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
     max-width: 1214.75px;
     min-width: 1023px;
     width: 100%;
@@ -37,7 +41,7 @@ nav{
     text-align: center;
 }
 .name{
-    font-size: 3.5rem;
+    font-size: 3rem;
     background-color: transparent;
     font-weight: bolder;
 }
@@ -66,7 +70,7 @@ nav{
     text-decoration: none;
     background-color: transparent;
     color: aliceblue;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 5px 10px;
     border-radius: 20px;
 }
@@ -75,7 +79,7 @@ nav{
 }
 .onPage{
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 5px 10px;
     border-radius: 20px;
     background-color: aliceblue;
@@ -92,8 +96,8 @@ li{
     align-items: center;
 }
 .KB{
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
     background-color: transparent;
 }
 
