@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './Projects.module.css';
 import mac from "../../picSource/macbook.png";
-import imac from "../../picSource/Imac.png";
+import imac from "../../picSource/imac.png";
 import iphone from "../../picSource/iphone.png";
 import github from "../../picSource/github.png";
 
