@@ -42,8 +42,9 @@ const Projects = ({setPageName}) => {
                             Weather App is built just by HTML, CSS & Vanilla JavaScript. It contains a beautiful loader and
                             error handlers, which provide the user with a great UX performance that combines with Js's DOM to
                             build this simple UI design. working with 
-                            <a class={styles.nameSite} target="_blank" rel='noreferrer' href='https://www.meteomatics.com/en/weather-api/?gclid=CjwKCAiAzrWOBhBjEiwAq85QZ1xeiaiEOnYJHy-O6nm3d-_4sx-mEFJUeos4sBqd_Sty0ZPVevwsMxoCskoQAvD_BwE'> Meteomatics </a> APIs
-                            APIs is a great way to experience a real API experience, however, Data is not reliable.
+                            <a class={styles.nameSite} target="_blank" rel='noreferrer' href='https://www.meteomatics.com/en/weather-api/?gclid=CjwKCAiAzrWOBhBjEiwAq85QZ1xeiaiEOnYJHy-O6nm3d-_4sx-mEFJUeos4sBqd_Sty0ZPVevwsMxoCskoQAvD_BwE'> Meteomatics </a> APIs. <br/>
+                            I have a plan to develop this web application, in mid-March. I would like to add extra analysis 
+                            on whether and display more details by Chart. Js library to visualized those changes. 
                         </p>
                         <div className={styles.linkCenterer}>
                             <a href='https://flo-weather.netlify.app/' target="_blank" rel='noreferrer'><div className={styles.linkToSite}>Flo-Weather</div></a>
@@ -65,7 +66,10 @@ const Projects = ({setPageName}) => {
                         <p className={styles.macName}>Flo-Swift</p>
                         <br/>
                         <p>
-
+                        Flo-Swift was my first experience of building a game or better to say competition web application (like <a class={styles.nameSite} href='https://type.biz/' target="_blank" rel='noreferrer' >type.biz</a>); 
+                        however, In my point of view, I think that I could use some other libraries to improve the useability of my web app. I will 
+                        update this game (challenge) website after this school year(We will experience building games in ICS4U, so I want to combine my 
+                        knowledge with dose units of game development).
                         </p>
                             <div className={styles.imaclinkCenterer}>
                                 <a href='https://github.com/floKianB/Flo-Crypto' target="_blank" rel='noreferrer'><img className={styles.codeIcon} src={github} alt="code link"/></a>

@@ -20,17 +20,14 @@
 .aboutMeContainer{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    column-gap: 30px;
+    column-gap: 40px;
     color: aliceblue;
     place-items: center;
     margin-top: 18rem;
 }
 
 .profilePic{
-    height: 320px;
-    width: 320px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 75%;
 }
 
 .aboutMe{
@@ -38,7 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    width: 100%;
+    width: 110%;
     height: 100%;
 }
 
@@ -59,22 +56,23 @@
     align-items: center;
     flex-direction: column;
 }
-
 .waterloo{
     width: 70%;
+    margin-bottom: 2.5rem;
 }
-
 .descriptionAboutMe, .descriptionAboutMe1{
     font-size: 1.5rem;
     color: aliceblue;
-    margin-top: 1em;
+    margin-top: 0.5em;
     width: 100%;
 }
-
 .descriptionAboutMe1{
     width: 90%;
 }
-
+.universities{
+    display: grid;
+    place-items: center;
+}
 /* left */
 
 .leftContainer{
@@ -131,7 +129,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2em;
+    gap: 2.5em;
     width: 100%;
 }
 .basketballtopic{
@@ -155,9 +153,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 4em;
+    gap: 3.5em;
     width: 100%;
     margin-top: 4em;
+}
+.guitarTextContainer{
+    padding-top: 3rem;
 }
 .guitartopic{
     font-family: 'Dosis', sans-serif;

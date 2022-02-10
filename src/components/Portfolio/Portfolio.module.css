@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 250px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .pageCV1, .pageCV2{
     width: 40%;
@@ -43,7 +43,7 @@
 }
 
 .socialMediaContainer{
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     cursor: pointer;
     display: grid;
     place-items: center;

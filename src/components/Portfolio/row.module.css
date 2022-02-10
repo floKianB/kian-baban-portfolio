@@ -1,6 +1,5 @@
 .row{
     width: 100%;
-    margin: 0px 35px;
 }
 .carts{
     display: flex;
@@ -10,10 +9,10 @@
     align-items: center;
 }
 .eachCart{
-    width: 80px;
+    width: 65px;
     object-fit: contain;
-    max-height: 80px;
-    margin: 0px 20px;
+    max-height: 70px;
+    margin: 0px 15px;
 }
 .eachCart:hover{
     opacity: 50%;

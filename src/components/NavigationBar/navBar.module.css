@@ -73,6 +73,7 @@ nav{
     font-size: 1.7rem;
     padding: 5px 10px;
     border-radius: 20px;
+    transition: all 0.25s;
 }
 .usual:hover{
     background-color: rgba(2, 112, 2, 0.753);
