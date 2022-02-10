@@ -58,7 +58,7 @@ const Cards = ({setPageName}) => {
 
 {/* leftern pic sections */}
                         <div className={styles.leftContainer}>
-                                <img src={security} alt="alt" width='27.5%'/>
+                                <img src={security} alt="alt" className={styles.cybersec}/>
                                 <div className={styles.leftTextContainer}>
                                     <h1 className={styles.leftTopic}>Cyber Security</h1>
                                     <p className={styles.leftDescription}>

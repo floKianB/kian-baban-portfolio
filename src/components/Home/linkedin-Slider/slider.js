@@ -9,8 +9,7 @@ function Slider() {
     const [xPos, setXpos] = useState(0);
 
     const onClick = (direction) => {
-        (direction === "left") ? setXpos(x => x + 500) : setXpos(x => x - 500);
-        console.log(xPos);
+        (direction === "left") ? setXpos(x => x + 260) : setXpos(x => x - 260);
     }
 
     return (

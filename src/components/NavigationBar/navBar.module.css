@@ -116,13 +116,13 @@ li{
         font-weight: bolder;
     }
 }
-@media screen and (min-width:0px) and (max-width:767px){
+@media only screen and (min-device-width: 319px) and (max-device-width:667px){
     nav{
         display: none;
     }
     .NavMin{
         display: flex;
-        padding: 0px 3px;
+        padding: 0px 20px;
     }
     .nameMin{
         color: aliceblue;

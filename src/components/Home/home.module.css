@@ -11,9 +11,12 @@
     margin-bottom: 0px;
 }
 
+
 .minimummer{
     max-width: 75%;
 }
+
+
 
 /* about me */
 
@@ -23,11 +26,12 @@
     column-gap: 40px;
     color: aliceblue;
     place-items: center;
-    margin-top: 18rem;
+    margin-top: 16.5rem;
 }
 
 .profilePic{
-    width: 75%;
+    width: 70%;
+    object-fit: cover;
 }
 
 .aboutMe{
@@ -57,7 +61,7 @@
     flex-direction: column;
 }
 .waterloo{
-    width: 70%;
+    width: 75%;
     margin-bottom: 2.5rem;
 }
 .descriptionAboutMe, .descriptionAboutMe1{
@@ -84,10 +88,12 @@
 }
 .leftTextContainer{
     display: flex;
-    align-items: left;
+    align-items: center;
     flex-direction: column;
     color: aliceblue;
-
+}
+.cybersec{
+    width: 27.5%;
 }
 .leftTextContainer>p{
     font-size: 1.5rem;
@@ -98,9 +104,6 @@
     text-align: left;
     margin-bottom: 3rem;
 }
-
-
-
 
 /* roadmap */
 .roadmap{
@@ -176,8 +179,100 @@
     font-size: 1.5rem;
 }
 
-@media only screen and (min-device-width: 0px) and (max-device-width:1023px){
-    .center{
+/* Responsive mobile */
+@media only screen and (min-device-width: 319px) and (max-device-width:667px){
+
+    .aboutMe, .descriptionAboutMe, .descriptionAboutMe1, .leftTextContainer>p, .bassketballDescription, .guitarDescription{
+        font-size: 1.2rem;
+    }
+
+/* About me */
+
+    .minimummer{
+        max-width: 95%;
+    }
+    .aboutMeTitle{
+        font-size: 2.5em;
+    }
+    .aboutMeContainer{
+        margin-top: 14rem;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .profilePic{
         display: none;
     }
+    .aboutMe{
+        width: 95%;
+    }
+
+/* university */
+
+    .universityContainer{
+        margin-top: 5rem;
+    }
+    .waterloo{
+        width: 90%;
+    }
+
+/* Cyber security */
+    .leftContainer{
+        flex-direction: column;
+    }
+    .cybersec{
+        width: 65%;
+    }
+    .leftTextContainer>p{
+        width: 93%;
+    }
+    .leftTopic{
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+/* Basketball */
+    .basketballContainer{
+        flex-direction: column;
+        flex-flow: column-reverse;
+        gap: 0;
+    }
+    .basketball{
+        width: 55%;
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
+
+    .basketballTextContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+
+/* Guitar */
+
+    .guitarContainer{
+        flex-direction: column;
+        flex-flow: column-reverse;
+        gap: 0;
+        margin-top: 0;
+    }
+    .guitar{
+        width: 60%;
+        margin: 2em;
+    }
+
+    .guitarTextContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+
+
 }

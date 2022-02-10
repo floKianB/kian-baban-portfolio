@@ -6,13 +6,15 @@
     border-radius: 50px;
 }
 
+
+
+
 .containerSlider { 
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 400px;
-
+    margin: 2rem 0;
     transition: all 0.5s;
 }
 .slider {
@@ -58,4 +60,22 @@
 
 .imageBtn{
     background-color: transparent;
+}
+
+
+@media only screen and (min-device-width: 319px) and (max-device-width:667px){
+    .each{
+        height: 200px;
+        margin: 0 15px;
+        border-radius: 15px;
+    }
+    .slider{
+        width: 90%;
+    }
+    .right{
+        right: 7px;
+    }
+    .left{
+        left: 7px;
+    }
 }
