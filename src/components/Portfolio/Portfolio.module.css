@@ -1,4 +1,3 @@
-
 .CVcontainer{
     display: flex;
     flex-direction: column;
@@ -19,9 +18,15 @@
     width: 40%;
     padding-top: 20px;
     background-color: #ffff;
+
+}
+
+.refrenceLetter{
+    width: 40%;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
+
 .downloadCV, .downloadLink{
     background-color: white;
     text-decoration: none;

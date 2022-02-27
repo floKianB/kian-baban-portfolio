@@ -123,6 +123,7 @@ const Cards = ({setPageName}) => {
                         </div>
                     </div>
 
+{/* For small displays */}
                 </div>
             </div>
             </>
