@@ -4,7 +4,7 @@ import Slider from "./linkedin-Slider/slider";
 import styles from "./home.module.css";
 
 import profilePic from "../../picSource/face.png";
-import waterloo from "../../picSource/wat.png";
+import waterloo from "../../picSource/uoft.png";
 import security from "../../picSource/security.png";
 import roadmap from "../../picSource/roadMap.png";
 import basketball from "../../picSource/BB.png";
@@ -45,11 +45,11 @@ const Cards = ({setPageName}) => {
                                     I have had a long-life desire to pursue my education in Computer Science, 
                                     and to meet that end, I have exploited all my potentials and opportunities, 
                                     including my immigration to Canada. I have applied to the University of 
-                                    Waterloo since it is the stepping stone to get into the world of technology 
+                                    Toronto since it is the stepping stone to get into the world of technology 
                                     and progress for the future. Canada's nonpareil computer science program in the 
-                                    University of Waterloo best fits my interest as an operating student in this major. 
+                                    University of Toronto best fits my interest as an operating student in this major. 
                                     The educational and experimental opportunities provided through co-op programs at University 
-                                    of Waterloo can profoundly enrich my knowledge and experience enhancing my progress in computer science. 
+                                    of Toronto can profoundly enrich my knowledge and experience enhancing my progress in computer science. 
                                     With my current background experience and interest in futuristic computer science outlooks, the best 
                                     university in Canada with programs such as cyber-security can pave the path of success to achieve my 
                                     educational goals.
