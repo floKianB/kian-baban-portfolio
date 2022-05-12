@@ -39,7 +39,7 @@ const Cards = ({setPageName}) => {
 
                     <div className={styles.universityContainer}>
                         <div className={styles.universities}>
-                            <img src={uoft} alt='uoft' className={styles.waterloo}/>
+                            {/* <img src={uoft} alt='uoft' className={styles.waterloo}/> */}
                         </div>
                                 <p className={styles.descriptionAboutMe1}>
                                     I have had a long-life desire to pursue my education in Computer Science, 
