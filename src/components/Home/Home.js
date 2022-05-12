@@ -4,7 +4,7 @@ import Slider from "./linkedin-Slider/slider";
 import styles from "./home.module.css";
 
 import profilePic from "../../picSource/face.png";
-import uoft from "../../picSource/uoft.png";
+// import uoft from "../../picSource/uoft.png";
 import security from "../../picSource/security.png";
 import roadmap from "../../picSource/roadMap.png";
 import basketball from "../../picSource/BB.png";
