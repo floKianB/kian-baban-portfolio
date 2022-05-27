@@ -101,7 +101,7 @@
 .leftTopic{
     font-family: 'Dosis', sans-serif;
     font-size: 3rem;
-    text-align: left;
+    /* text-align: left; */
     margin-bottom: 3rem;
 }
 

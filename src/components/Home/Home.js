@@ -37,28 +37,8 @@ const Cards = ({setPageName}) => {
 
 {/* university */}
 
-                    <div className={styles.universityContainer}>
-                        <div className={styles.universities}>
-                            {/* <img src={uoft} alt='uoft' className={styles.waterloo}/> */}
-                        </div>
-                                <p className={styles.descriptionAboutMe1}>
-                                    I have had a long-life desire to pursue my education in Computer Science, 
-                                    and to meet that end, I have exploited all my potentials and opportunities, 
-                                    including my immigration to Canada. I have applied to the University of 
-                                    Toronto since it is the stepping stone to get into the world of technology 
-                                    and progress for the future. Canada's nonpareil computer science program in the 
-                                    University of Toronto best fits my interest as an operating student in this major. 
-                                    The educational and experimental opportunities provided through co-op programs at University 
-                                    of Toronto can profoundly enrich my knowledge and experience enhancing my progress in computer science. 
-                                    With my current background experience and interest in futuristic computer science outlooks, the best 
-                                    university in Canada with programs such as cyber-security can pave the path of success to achieve my 
-                                    educational goals.
-                                </p>
-                    </div>
-
 {/* leftern pic sections */}
                         <div className={styles.leftContainer}>
-                                <img src={security} alt="alt" className={styles.cybersec}/>
                                 <div className={styles.leftTextContainer}>
                                     <h1 className={styles.leftTopic}>Cyber Security</h1>
                                     <p className={styles.leftDescription}>
@@ -71,6 +51,8 @@ const Cards = ({setPageName}) => {
                                     is accessible from a strange person which can be used for abusive purpeses.
                                     </p>
                                 </div>
+                                <img src={security} alt="alt" className={styles.cybersec}/>
+
                         </div>
                     
 {/* right pic section */}
